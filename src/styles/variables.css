@@ -1,0 +1,94 @@
+/* *** Fonts Connection *** */
+
+/* kanit-regular - latin */
+@font-face {
+  font-family: "Kanit";
+  src: url("../assets/fonts/kanit-v17-latin-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* nunito-regular - latin */
+@font-face {
+  font-family: "Nunito";
+  src: url("../assets/fonts/nunito-v32-latin-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* almarai-700 - latin */
+@font-face {
+  font-family: "Almarai";
+  src: url("../assets/fonts/almarai-v19-latin-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* alex-brush-regular - latin */
+@font-face {
+  font-family: "Alex Brush";
+  src: url("../assets/fonts/alex-brush-v23-latin-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* mitr-regular - latin */
+@font-face {
+  font-family: "Mitr";
+  src: url("../assets/fonts/mitr-v13-latin-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* martel-sans-regular - latin */
+@font-face {
+  font-family: "Martel Sans";
+  src: url("../assets/fonts/martel-sans-v14-latin-regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* --- Primary Colors --- */
+  --color-bg: #191d1d; /* Background */
+  --color-bg-alt: #212828; /* Background */
+  --color-surface: #121616; /* Для карток чи блоків */
+
+  /* --- Text & Content --- */
+  --color-text: #ffffff; /* General Text */
+  --color-text-muted: #6d7d7d; /* Secondary Text */
+  --color-divider: #d9d9d9; /* Світлі лінії*/
+
+  /* --- Functional & Accents --- */
+  --color-rating: #ffb238;
+  --color-accent: #ffffff;
+
+  /* --- UI Elements --- */
+  --btn-radius: 100px;
+  --btn-border: 1px solid var(--color-text-muted);
+
+  --input-border: 1px solid var(--color-text-muted);
+
+  /* Layout Tokens */
+  --container-width: 1180px;
+  --container-padding: 20px;
+
+  /* --- Typography System --- */
+
+  /* Основні (Main usage) */
+  --font-main: "Kanit", sans-serif; /* головний шрифт */
+  --font-secondary: "Nunito", sans-serif; /* допоміжний шрифт */
+
+  /* Спеціальна категорія для брендів */
+  --font-partners-sparta: "Martel Sans", sans-serif;
+  --font-partners-allianzy: "Mitr", sans-serif;
+  --font-partners-reys: "Alex Brush", sans-serif;
+  --font-partners-fuda: "Almarai", sans-serif;
+}
