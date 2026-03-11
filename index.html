@@ -31,7 +31,7 @@
                 </li>
               </ul>
             </nav>
-            <button class="button header__button" type="button">
+            <button class="button button--main header__button" type="button">
               get started
             </button>
           </div>
@@ -39,23 +39,35 @@
       </div>
     </header>
     <main>
-      <section>
-        <div>
-          <img src="#" alt="Modern interior design with a grey armchair" />
+      <section class="section hero">
+        <div class="section__visual">
+          <img
+            class="hero__img"
+            src="#"
+            alt="Modern interior design with a grey armchair"
+          />
         </div>
 
         <div class="container">
-          <a href="#about">swipe down</a>
+          <div class="hero__inner">
+            <a class="swipe-link hero__swipe" href="#about">swipe down</a>
 
-          <div>
-            <h1>We design your room aesthetic</h1>
-            <p>Lectus quam id leo in vitae turpis nisi porta lorem mollis.</p>
+            <div class="hero__content">
+              <h1 class="title title--main">We design your room aesthetic</h1>
+              <p class="hero__text">
+                Lectus quam id leo in vitae turpis nisi porta lorem mollis.
+              </p>
 
-            <button type="button" aria-label="Play video">
-              <svg>
-                <use href="#"></use>
-              </svg>
-            </button>
+              <button
+                class="button-play hero__play"
+                type="button"
+                aria-label="Play video"
+              >
+                <svg class="hero__button-icon">
+                  <use href="#"></use>
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
       </section>
