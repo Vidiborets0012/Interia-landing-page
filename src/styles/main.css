@@ -2,9 +2,16 @@
 @import "./variables.css";
 
 body {
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+
+  font-family: var(--font-main);
+  line-height: 1.5;
   background-color: var(--color-bg);
   color: var(--color-text);
-  font-family: var(--font-main);
+
+  scroll-behavior: smooth;
+
   /* Це забезпечить правильне відображення шрифтів у Windows/Bash терміналах */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
