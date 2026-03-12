@@ -33,15 +33,3 @@ button {
   border: none;
   background: none;
 }
-
-/* body {
-  min-height: 100vh;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-
-  font-family: var(--font-main);
-  background-color: var(--color-bg);
-  color: var(--color-text);
-
-  scroll-behavior: smooth;
-} */
