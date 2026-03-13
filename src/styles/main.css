@@ -49,6 +49,16 @@ body {
   padding-bottom: var(--space-l);
 }
 
+.section__label {
+  text-transform: uppercase;
+  letter-spacing: 0.43em;
+  color: var(--color-text-muted);
+}
+
+.section__title {
+  font-size: 40px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -220,6 +230,17 @@ body {
   transform: scale(1.1);
   background-color: var(--color-text);
   color: var(--color-text-muted);
+}
+
+/* --- About Section --- */
+
+.about__title {
+  margin-bottom: 20px;
+}
+
+.about__text {
+  font-family: var(--font-secondary);
+  max-width: 513px;
 }
 
 /* --- Partners Section --- */
