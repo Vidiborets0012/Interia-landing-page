@@ -27,6 +27,11 @@ body {
   padding-right: var(--container-padding);
 }
 
+.container--stretch {
+  display: flex;
+  flex: 1;
+}
+
 .logo {
   text-transform: uppercase;
   letter-spacing: 0.43em;
@@ -110,10 +115,10 @@ body {
   overflow: hidden;
 }
 
-.hero .container {
+/* .hero .container {
   display: flex;
   flex: 1;
-}
+} */
 
 .section__visual {
   position: absolute;
