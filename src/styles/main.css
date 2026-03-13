@@ -243,11 +243,47 @@ body {
   max-width: 513px;
 }
 
+/* --- cta-banner Section --- */
+
+.cta-banner {
+  /* transform: translateY(50%);
+  margin-bottom: 50px; */
+  position: relative;
+  z-index: 10;
+  margin-bottom: -150px;
+}
+
+.cta-banner__inner {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 61px;
+  padding-bottom: 69px;
+  padding-right: 105px;
+  border-radius: 50px 50px 0 50px;
+  background-image: url("/src/assets/images/banner/banner-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+.cta-banner__content {
+  display: flex;
+  flex-direction: column;
+  max-width: 520px;
+  gap: 29px;
+}
+
+.cta-banner__button {
+  align-self: flex-start;
+}
+
 /* --- Partners Section --- */
 
 .partners {
   color: var(--color-text-muted);
   background-color: var(--color-bg-accent);
+
+  padding-top: 225px; /* тимчасово (перенести падінг на секцію, яка буде під банером)*/
 }
 
 .partners__list {
