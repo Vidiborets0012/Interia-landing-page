@@ -59,6 +59,7 @@
   /* --- Primary Colors --- */
   --color-bg: #191d1d; /* Background */
   --color-bg-alt: #212828; /* Background */
+  --color-bg-accent: #131616;
   --color-surface: #121616; /* Для карток чи блоків */
 
   /* --- Text & Content --- */
@@ -79,6 +80,9 @@
   /* Layout Tokens */
   --container-width: 1180px;
   --container-padding: 20px;
+
+  --space-m: 75px;
+  --space-l: 100px;
 
   /* --- Typography System --- */
 

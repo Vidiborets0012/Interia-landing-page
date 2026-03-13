@@ -32,6 +32,36 @@ body {
   flex: 1;
 }
 
+.section--pt-m {
+  padding-top: var(--space-m);
+}
+
+.section--pt-l {
+  padding-top: var(--space-l);
+}
+
+/* На випадок, якщо секція остання перед футером  або для бекграунду*/
+.section--pb-m {
+  padding-bottom: var(--space-m);
+}
+
+.section--pb-l {
+  padding-bottom: var(--space-l);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .logo {
   text-transform: uppercase;
   letter-spacing: 0.43em;
@@ -115,11 +145,6 @@ body {
   overflow: hidden;
 }
 
-/* .hero .container {
-  display: flex;
-  flex: 1;
-} */
-
 .section__visual {
   position: absolute;
   left: 0;
@@ -171,6 +196,12 @@ body {
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 0.2em;
+
+  transition: color 0.3s ease;
+}
+
+.hero__swipe:hover {
+  color: var(--color-text-muted);
 }
 
 .button-play {
@@ -189,4 +220,64 @@ body {
   transform: scale(1.1);
   background-color: var(--color-text);
   color: var(--color-text-muted);
+}
+
+/* --- Partners Section --- */
+
+.partners {
+  color: var(--color-text-muted);
+  background-color: var(--color-bg-accent);
+}
+
+.partners__list {
+  display: flex;
+  /* justify-content: space-between;
+  align-items: stretch; */
+  align-items: center;
+  gap: 40px;
+}
+
+.partners__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-basis: calc((100% - 120px) / 4); */
+  flex: 1;
+  min-height: 98px;
+  padding: 8px;
+}
+
+.partners__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  height: 100%;
+
+  transition: color 0.3s ease;
+}
+
+.partners__link:hover {
+  color: var(--color-text);
+}
+
+.partners__name--sparta {
+  font-family: var(--font-partners-sparta);
+  font-size: 24px;
+}
+
+.partners__name--allianzy {
+  font-family: var(--font-partners-allianzy);
+  font-size: 32px;
+}
+
+.partners__name--reys {
+  font-family: var(--font-partners-reys);
+  font-size: 32px;
+}
+
+.partners__name--fuda {
+  font-family: var(--font-partners-fuda);
+  font-weight: 700;
+  font-size: 16px;
 }
